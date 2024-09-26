@@ -1,0 +1,48 @@
+{
+  "name": "prisma-sql-gen",
+  "version": "0.0.1",
+  "description": "A tool to generate sql from prisma shema file",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "author": {
+    "name": "Anton Zalyaldinov",
+    "email": "zloomsky@gmail.com"
+  },
+  "homepage": "https://github.com/zloom/prisma-sql-gen#readme",
+  "bugs": {
+    "url": "https://github.com/zloom/prisma-sql-gen/issues"
+  },
+  "keywords": [
+    "typescript",
+    "prisma",
+    "sql",
+    "initialize",
+    "database"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "generate": "prisma generate --schema ./src/schema.prisma "
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/migrate": "3.9.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.20.0",
+    "@types/jest": "^29.5.13",
+    "@types/uuid": "^10.0.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.20.0",
+    "ts-jest": "^29.2.5",
+    "ts-toolbelt": "^9.6.0",
+    "typescript": "^5.6.2",
+    "uuid": "^10.0.0"
+  },
+  "peerDependencies": {
+    "@prisma/migrate": "3.9.0"
+  }
+}
