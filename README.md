@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/prisma-sql-gen.svg)](https://badge.fury.io/js/prisma-sql-gen)
+[![npm version](https://img.shields.io/npm/v/prisma-sql-gen?color=blue)](https://www.npmjs.com/package/prisma-sql-gen)
 [![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/zloom/prisma-sql-gen/blob/main/LICENSE)
 # Prisma SQL generator
 A tool to create SQL init script for your database from prisma shema file.
