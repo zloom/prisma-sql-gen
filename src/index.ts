@@ -1,7 +1,7 @@
-import { MigrateEngine } from '@prisma/migrate/dist'
+import { SchemaEngine } from '@prisma/migrate'
 import { resolve } from 'path'
 
-class GeneratorEngine extends MigrateEngine {
+class GeneratorEngine extends SchemaEngine {
   public createScript: string
   constructor() {
     super({ projectDir: process.cwd(), schemaPath: '' })

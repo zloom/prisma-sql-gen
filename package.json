@@ -1,6 +1,6 @@
 {
   "name": "prisma-sql-gen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tool to generate sql from prisma shema file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@prisma/migrate": "3.9.0"
+    "@prisma/migrate": "5.9.1"
   },
   "devDependencies": {
     "@prisma/client": "^5.20.0",
@@ -43,6 +43,6 @@
     "uuid": "^10.0.0"
   },
   "peerDependencies": {
-    "@prisma/migrate": "3.9.0"
+    "@prisma/migrate": "5.9.1"
   }
 }
