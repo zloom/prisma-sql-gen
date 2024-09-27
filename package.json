@@ -1,6 +1,6 @@
 {
   "name": "prisma-sql-gen",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A tool to generate sql from prisma shema file",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
