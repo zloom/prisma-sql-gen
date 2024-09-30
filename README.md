@@ -1,5 +1,6 @@
 [![npm version](https://img.shields.io/npm/v/prisma-sql-gen?color=blue)](https://www.npmjs.com/package/prisma-sql-gen)
-[![GitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/zloom/prisma-sql-gen/blob/main/LICENSE)
+[![npm downloads](https://img.shields.io/npm/dm/prisma-sql-gen?color=blue)](https://www.npmjs.com/package/prisma-sql-gen)
+[![gitHub license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/zloom/prisma-sql-gen/blob/main/LICENSE)
 # Prisma SQL generator
 A tool to create SQL init script for your database from prisma shema file.
 This tool can help when you need to initialise fresh databse from actual prisma schema without interacting with prisma cli.
